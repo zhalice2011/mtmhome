@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="localhost:5000"></a>
+    <button id="dali">点我</button>
+</body>
+<script>
+    var $btn = document.getElementById('dali')
+
+    $btn.addEventListener("click", function () {
+            var url = 'localhost:5000'
+            var $a = document.querySelector("a[href=' " + url + " ']");
+            $a.innerHTML = "申宝:" + url
+        })
+
+        >
+        db.users.find({}) {
+            "_id": ObjectId("5a618d5022428b4bc9ec2480"),
+            "register_date": ISODate("2018-01-19T06:16:48.014Z"),
+            "openid": "oKrD30CrJ0SvK0ydry1K-c-RFy8U",
+            "mid": "54969cc0-fce0-11e7-99e8-553d83154dbb",
+            "__v": 0,
+            "address": {
+                "country": "China",
+                "province": "Beijing",
+                "city": "Haidian"
+            },
+            "gender": 1,
+            "nickname": "代号"
+        } {
+            "_id": ObjectId("5a61a0014b627d5cf6dafc33"),
+            "register_date": ISODate("2018-01-19T07:36:33.171Z"),
+            "mid": "78c3a010-fceb-11e7-8144-1f75a6e868bc",
+            "__v": 0
+        }
+
+</script>
+
+</html>

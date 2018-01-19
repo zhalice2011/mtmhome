@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "wxc-avatar": "../../dist/packages/@minui/wxc-avatar/dist/index",        
+        "wxc-toast": "../../dist/packages/@minui/wxc-toast/dist/index"
+    }
+  }

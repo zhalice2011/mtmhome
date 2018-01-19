@@ -4,6 +4,13 @@ bin-debug/
 bin-release/
 [Oo]bj/ # FlashDevelop obj
 [Bb]in/ # FlashDevelop bin
+lib
+node_modules
+example/**/dist
+package-lock.json
+.idea
+.vscode/
+*.log
 
 # Other files and folders
 .settings/

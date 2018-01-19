@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pharmacist/pharmacist"
+  ],
+  "tabBar": {
+    "color": "#707070",    
+    "selectedColor": "#48cda6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "resources/images/home.png",
+        "selectedIconPath": "resources/images/homeseclect.png",
+        "text": "首页"        
+      }, 
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "resources/images/online.png",
+        "selectedIconPath": "resources/images/onlineselect.png",
+        "text": "药师"        
+      },
+      {
+        "pagePath": "pages/pharmacist/pharmacist",
+        "iconPath": "resources/images/my.png",
+        "selectedIconPath": "resources/images/myseclect.png",
+        "text": "我的"        
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
