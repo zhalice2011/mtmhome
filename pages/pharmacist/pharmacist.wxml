@@ -12,6 +12,9 @@
           text="Hello World">
     </wxc-toast>
     <button bindtap="showToast">调用 show() 方法显示</button>
+
+    <button bindtap="showToast2">蓝牙连接</button>
+
 </view>
 
 <template>
